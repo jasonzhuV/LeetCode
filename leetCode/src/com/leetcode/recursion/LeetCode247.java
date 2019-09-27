@@ -9,11 +9,11 @@ public class LeetCode247 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        Solution solution = new Solution();
+        Solution247 solution = new Solution247();
         System.out.println(solution.findStrobogrammatic(n));
     }
 }
-class Solution {
+class Solution247 {
     public List<String> findStrobogrammatic(int n) {
         List<String> list = new ArrayList<>();
         list = check(list,n);
