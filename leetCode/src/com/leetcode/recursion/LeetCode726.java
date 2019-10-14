@@ -22,6 +22,14 @@ class Solution726 {
         /*
         按照传进来的倍数将传进来的内容数字全都 x 倍
          */
+        String afterClean = "";
+        int begin = 0;
+        int endBegin = 0;
+        int endEnd = 0;
+        int flag = 0;
+        String count = "";
+        int countNum = 0;
+
         String formulaTemp = formula;
         formula = "";
         for (int i = 0; i < formula.length(); i++) {
@@ -32,6 +40,7 @@ class Solution726 {
             }
             afterClean += temp; //没有括号的部分
         }
+        int i = 0 ;
         while(formula.charAt(i) >='0' && formula.charAt(i) <='9'){
             count += formula.charAt(i);
             i++;
@@ -40,14 +49,14 @@ class Solution726 {
 
 
 
-        String afterClean = "";
-        int begin = 0;
-        int endBegin = 0;
-        int endEnd = 0;
-        int flag = 0;
-        String count = "";
-        int countNum = 0;
-        for (int i = 0; i < formula.length(); i++) {
+//        String afterClean = "";
+//        int begin = 0;
+//        int endBegin = 0;
+//        int endEnd = 0;
+//        int flag = 0;
+//        String count = "";
+//        int countNum = 0;
+        for (i = 0; i < formula.length(); i++) {
             char temp = formula.charAt(i);
             if (temp != '(' ) {
                 begin = i;//标记第一组 （ ） 开始位置  包含（
@@ -61,7 +70,7 @@ class Solution726 {
         if(!map.containsKey(afterClean)){
             map.put(afterClean,1);
         }
-        for(int i = begin; i < formula.length();i++){
+        for(i = begin; i < formula.length();i++){
             char temp = formula.charAt(i);
             if (temp == '(' ) {
                 flag++;
