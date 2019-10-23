@@ -1,7 +1,12 @@
 package com.leetcode.dynamicprogramming;
 
 import java.util.Scanner;
-
+/**
+ * dp[i]=max{dp[i-1],nums[i]+dp[i-2]}
+ * 是否抢了第i个
+ * 【1】如果抢了第i个，第i-1个就不能抢，
+ * 【2】如果没抢第i个，第i-1个就可以抢，所以抢和不抢第i个有两种情况，选两种情况的较大值
+ */
 public class LeetCode198 {
     public static void main(String[] args) {
         LeetCode198 leetCode198 = new LeetCode198();
@@ -30,18 +35,4 @@ public class LeetCode198 {
         }
     }
 }
-/**
- * dp[i]=max{dp[i-1],nums[i]+dp[i-2]}
- * 是否抢了第i个，抢了第i个第i-1个就不能抢，没抢第i个第i-1个就可以抢，所以抢和不抢第i个有两种情况，选两种情况的较大值
- * <p>
- * public int rob(int[] nums) {
- * int n = nums.length;
- * if (n <= 1) return n == 0 ? 0 : nums[0];
- * int[] memo = new int[n];
- * memo[0] = nums[0];
- * memo[1] = Math.max(nums[0], nums[1]);
- * for (int i = 2; i < n; i++)
- * memo[i] = Math.max(memo[i - 1], nums[i] + memo[i - 2]);
- * return memo[n - 1];
- * }
- */
+
