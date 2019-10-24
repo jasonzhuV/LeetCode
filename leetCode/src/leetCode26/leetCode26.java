@@ -30,23 +30,27 @@ package leetCode26;
  */
 public class leetCode26 {
 	public static void main(String[] args) {
-		Solution aSolution = new Solution();
+		leetCode26 leet26 = new leetCode26();
+		Solution solution = leet26.new Solution();
 		int[] array = {1,1,2};
 		int a = 0;
-		int num = aSolution.removeDuplicates(array);
+		int num = solution.removeDuplicates(array);
 		for(int i = 0;i<num;i++){
 			System.out.print(array[i]+" ");
 		}
 	}
+
+	class Solution {
+		public int removeDuplicates(int[] nums) {
+			int pointer = 0;
+			for(int i = 0;i<nums.length;i++){
+				if(nums[pointer] != nums[i]){
+					nums[++pointer] = nums[i];
+				}
+			}
+			return ++pointer;
+		}
+	}
+
 }
-class Solution {
-    public int removeDuplicates(int[] nums) {
-    	int pointer = 0;
-    	for(int i = 0;i<nums.length;i++){
-    		if(nums[pointer] != nums[i]){
-    			nums[++pointer] = nums[i];
-    		}
-    	}
-    	return ++pointer;
-    }
-}
+

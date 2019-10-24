@@ -13,13 +13,15 @@ package leetCode80;
  */
 public class leetCode80 {
 	public static void main(String[] args) {
-		Solution solution = new Solution();
+		leetCode80 leet80 = new leetCode80();
+		Solution solution = leet80.new Solution();
 		
 	}
-}
-class Solution {
-    public int removeDuplicates(int[] nums) {
-        
-    	return 0;
-    }
+
+	class Solution {
+		public int removeDuplicates(int[] nums) {
+
+			return 0;
+		}
+	}
 }
