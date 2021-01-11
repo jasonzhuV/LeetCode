@@ -1,5 +1,8 @@
 package com.methods;
 
+/**
+ * 使用位运算将二进制数转化为十进制
+ */
 public class BinaryToInt {
 
 
