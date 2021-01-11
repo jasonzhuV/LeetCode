@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0227449b-b8c9-4dbb-90b2-bee12c79681e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetCode/src/com/methods/Kmp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetCode/src/com/methods/BinaryToInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/src/com/methods/BinaryToInt.java" afterDir="false" />
-    </list>
+    <list default="true" id="0227449b-b8c9-4dbb-90b2-bee12c79681e" name="Default Changelist" comment="comment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,8 +160,30 @@
       <workItem from="1572319750403" duration="2090000" />
       <workItem from="1572492187569" duration="12842000" />
       <workItem from="1573035582236" duration="614000" />
-      <workItem from="1610343527367" duration="2161000" />
+      <workItem from="1610343527367" duration="2463000" />
     </task>
+    <task id="LOCAL-00001" summary="comment">
+      <created>1610347632151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610347632151</updated>
+    </task>
+    <task id="LOCAL-00002" summary="comment">
+      <created>1610347657152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610347657152</updated>
+    </task>
+    <task id="LOCAL-00003" summary="comment">
+      <created>1610347681865</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610347681865</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,11 +200,23 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="comment" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="270" y="0" key="SettingsEditor" timestamp="1610347439562">
+    <state x="430" y="119" key="FileChooserDialogImpl" timestamp="1610347742036">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610347439562" />
+    <state x="430" y="119" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610347742036" />
+    <state x="509" y="113" key="RollbackChangesDialog" timestamp="1610347611260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="509" y="113" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610347611260" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1610347744842">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610347744842" />
     <state x="851" y="149" width="602" height="532" key="find.popup" timestamp="1610346831580">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
