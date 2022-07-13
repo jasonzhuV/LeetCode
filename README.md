@@ -1,7 +1,7 @@
 # LeetCode
 answers for leetcode
 
-```shell
+```
 #目录结构
 
 questions      #题目源码
